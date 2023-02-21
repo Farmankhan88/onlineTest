@@ -1,5 +1,5 @@
 # string questions
-
+```
   //   1. Count number of words in a Text after splitting it by any word
       // for example
       //   Hello Wecode Acacdemy
