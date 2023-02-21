@@ -1,19 +1,19 @@
-# string questions
+ 1. Count number of words in a Text after splitting it by any word
+       for example
+         Hello Wecode Acacdemy
+         space se split, 3 words
 
-  //   1. Count number of words in a Text after splitting it by any word;
-      // for example;
-      //   Hello Wecode Acacdemy;
-      //   space se split, 3 words;
       ```
           let str = "Hello Wecode Acacdemy";
           let split = str.split("Wecode");
           console.log(split.length);
       ```
-      //2. Convert odd position word to lowercase and even position word to uppercase;
-      //   foe example;
-      // Hello WeCode Academy;
-      // hello WECODE academy;
-      //for example;
+
+      2. Convert odd position word to lowercase and even position word to uppercase
+         foe example
+       Hello WeCode Academy
+       hello WECODE academy
+      for example
       ```
         let str = "Hello WeCode Academy my name Is Farman Khan";
         let split = str.split(" ");
@@ -30,12 +30,11 @@
           }
         }
         console.log(empty);
+      ```//for example //   3. Capitalize each word of the string
+
       ```
-      //   3. Capitalize each word of the string;
-      //for example;
-      //   hello wecode academy jhotwara jaipur;
-      //   Hello Wecode Academy Jhotwara Jaipur;
-        ```
+      //   hello wecode academy jhotwara jaipur
+      //   Hello Wecode Academy Jhotwara Jaipur
         let str = "hello wecode academy jhotwara jaipur";
         let empty = "";
         let split = str.split(" ");
@@ -53,13 +52,10 @@
           }
         }
         console.log(empty);
-        ```
-        //4. Convert an string into 2 halfs and change the position of the other half;
-        //for example ;
-
-         My name is wecode academy;
-         wecode academy My name is;
-               ```
+        ```//for example //4. Convert an string into 2 halfs and change the position of the other half
+      ```
+         My name is wecode academy
+         wecode academy My name is
         let str = "My name is wecode academy";
         let split = str.split(" ");
         let slice1 = split.slice(0, Math.ceil(split.length / 2));
@@ -69,11 +65,11 @@
         console.log(join);
         ```;
 
-      //5. Take a string and now ask for a character from the user. Now find total count of that character in the string;;
-      //for example;
-      // My name is wecode academy;;
-      // a;
-      // 3;
+      //5. Take a string and now ask for a character from the user. Now find total count of that character in the string
+      //for example
+      // My name is wecode academy;
+      // a
+      // 3
       ```
       let str = "My name is wecode academy";
       let ask = prompt("what do you wnt to find in string?");
@@ -85,8 +81,7 @@
         }
       }
       console.log(count);
-      ```
-      //6. Reverse a string;
+      ```//6. Reverse a string
       ```
         let str = "my name is farman khan";
         let split = str.split(" ").reverse();
@@ -96,8 +91,7 @@
           empty += a + " ";
         }
         console.log(empty);
-        ```
-        //7. Check string is palindrom or not;
+        ```//7. Check string is palindrom or not
       ```
         let str = "abababa";
         let split = str.split(" ");
@@ -115,13 +109,11 @@
         } else {
           console.log("no");
         }
-        ```
-        //8. Remove space from the string and show the output;
-      //for example;
-
-        My name is wecode;
-        Mynameiswecode;
-              ```
+        ```//8. Remove space from the string and show the output
+      //for example
+      ```
+        My name is wecode
+        Mynameiswecode
         let str = "My name is wecode";
         let split = str.split(" ");
         let empty = "";
@@ -130,13 +122,11 @@
           empty += b;
         }
         console.log(empty);
-        ```
-        //   9. Check a word count in the string;
-      //   for exemple;
-      //   My code is wecode and wecode Jhotwara, ;Jaipur.
-      //   code;
-      //   3;
-      
+        ```//   9. Check a word count in the string
+      //   for exemple
+      //   My code is wecode and wecode Jhotwara, Jaipur.
+      //   code
+      //   3
       ```
         let str = "My code is wecode and wecode Jhotwara, Jaipur.";
         let ask = prompt("what do you want to serch?");
@@ -148,4 +138,4 @@
           }
         }
         console.log(count);
-        ```
+        ```;
