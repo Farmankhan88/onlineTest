@@ -1,17 +1,14 @@
 # string questions
-```
+
   //   1. Count number of words in a Text after splitting it by any word
       // for example
       //   Hello Wecode Acacdemy
       //   space se split, 3 words
       ```
-      
-
           let str = "Hello Wecode Acacdemy";
           let split = str.split("Wecode");
           console.log(split.length);
       ```;
-
       //2. Convert odd position word to lowercase and even position word to uppercase
       //   foe example
       // Hello WeCode Academy
@@ -33,11 +30,12 @@
           }
         }
         console.log(empty);
-      ```//for example //   3. Capitalize each word of the string
-
-      ```
+      ```; 
+      //   3. Capitalize each word of the string
+      //for example
       //   hello wecode academy jhotwara jaipur
       //   Hello Wecode Academy Jhotwara Jaipur
+        ```
         let str = "hello wecode academy jhotwara jaipur";
         let empty = "";
         let split = str.split(" ");
@@ -55,7 +53,9 @@
           }
         }
         console.log(empty);
-        ```//for example //4. Convert an string into 2 halfs and change the position of the other half
+        ```;
+        //4. Convert an string into 2 halfs and change the position of the other half
+        //for example 
       ```
          My name is wecode academy
          wecode academy My name is
@@ -84,7 +84,8 @@
         }
       }
       console.log(count);
-      ```//6. Reverse a string
+      ```;
+      //6. Reverse a string
       ```
         let str = "my name is farman khan";
         let split = str.split(" ").reverse();
@@ -95,7 +96,7 @@
         }
         console.log(empty);
         ```//7. Check string is palindrom or not
-      ```
+      ```;
         let str = "abababa";
         let split = str.split(" ");
         let empty = "";
@@ -112,7 +113,8 @@
         } else {
           console.log("no");
         }
-        ```//8. Remove space from the string and show the output
+        ```;
+        //8. Remove space from the string and show the output
       //for example
       ```
         My name is wecode
@@ -125,7 +127,8 @@
           empty += b;
         }
         console.log(empty);
-        ```//   9. Check a word count in the string
+        ```;
+        //   9. Check a word count in the string
       //   for exemple
       //   My code is wecode and wecode Jhotwara, Jaipur.
       //   code
